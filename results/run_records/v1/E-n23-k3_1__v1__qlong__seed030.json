@@ -1,0 +1,118 @@
+{
+ "method": "v1",
+ "solver": "RVND_v01",
+ "case": "E-n23-k3_1",
+ "seed": 30,
+ "qlow_mode": "long",
+ "qlow_search": 8049,
+ "objective": 2583.231283776,
+ "score_4sd": "2.583E+03",
+ "emissions": 379.23128377600005,
+ "collected_prize": 796,
+ "fixed_cost": 3000,
+ "served_customers": 19,
+ "total_demand": 10189,
+ "r": 0.6,
+ "qlow_long": 8049,
+ "qlow_trachanatzi": 6113.4,
+ "qlow_trachanatzi_exact": "30567/5",
+ "qlow_max_int": 8049,
+ "served_demand": 9439,
+ "feasible_qlow_long": true,
+ "feasible_qlow_trachanatzi": true,
+ "infeasible_wrt": "none",
+ "initial_objective": 2729.918308504,
+ "budget_units": 44660529,
+ "units_used": 44660623,
+ "overshoot_units": 94,
+ "wall_s": 90.41777545306832,
+ "gvns_iterations": 33362,
+ "config": {
+  "k_max": 6,
+  "sigma": 0.04,
+  "seg_max": 3,
+  "certify_every_move": true
+ },
+ "improvements": [
+  [
+   6429,
+   0.01577934715896845,
+   2583.231283776,
+   0
+  ]
+ ],
+ "stats": {
+  "scan_drop_add_replace": 34207,
+  "move_drop": 8,
+  "scan_two_opt_star": 34010,
+  "move_two_opt_star": 185,
+  "scan_segment_exchange": 33953,
+  "scan_relocate": 34469,
+  "move_relocate_inter": 1334,
+  "scan_two_opt": 33890,
+  "move_two_opt": 54,
+  "scan_swap": 34062,
+  "move_swap_inter": 422,
+  "move_add": 620,
+  "shake_random": 11142,
+  "shake_worst": 11189,
+  "shake_related": 11031,
+  "shake_failed_qlow": 581,
+  "move_swap_intra": 66,
+  "move_relocate_intra": 37,
+  "move_replace": 2
+ },
+ "work_by_kind": {
+  "certify": 68156,
+  "drop_add_replace": 4501314,
+  "two_opt_star": 2686410,
+  "segment_exchange": 14465306,
+  "relocate": 11410691,
+  "two_opt": 2269918,
+  "swap": 5103955,
+  "shake_insertion": 3942282,
+  "shake_worst_scores": 212591
+ },
+ "routes": {
+  "0": [
+   1,
+   7,
+   2,
+   3,
+   4,
+   17,
+   16,
+   18,
+   21,
+   20,
+   19,
+   1
+  ],
+  "1": [
+   1,
+   8,
+   9,
+   5,
+   6,
+   10,
+   12,
+   13,
+   1
+  ],
+  "2": [
+   1,
+   14,
+   11,
+   1
+  ]
+ },
+ "routes_direction": "pick-up",
+ "instance_sha256": "6667574ad70d2eb5caa55381cf6d9f1e9e212cf0219148c6c80c99566b2b7874",
+ "budget_calibration": {
+  "file": "budget_calibration_v1_v01.json",
+  "sha256": "e010d91a1e6d36e34bebc4eb09151feb46776bde0c4e78ee832c0e672e1ad9a6"
+ },
+ "host": "jt-pc",
+ "python": "3.14.10",
+ "pid": 1099786
+}

@@ -1,0 +1,177 @@
+{
+ "method": "v1",
+ "solver": "RVND_v01",
+ "case": "E-n33-k4_5",
+ "seed": 10,
+ "qlow_mode": "max",
+ "qlow_search": 23496,
+ "objective": 3302.976903025,
+ "score_4sd": "3.303E+03",
+ "emissions": 690.9769030250001,
+ "collected_prize": 1388,
+ "fixed_cost": 4000,
+ "served_customers": 29,
+ "total_demand": 29370,
+ "r": 0.8,
+ "qlow_long": 17622,
+ "qlow_trachanatzi": 23496.0,
+ "qlow_trachanatzi_exact": "23496/1",
+ "qlow_max_int": 23496,
+ "served_demand": 26270,
+ "feasible_qlow_long": true,
+ "feasible_qlow_trachanatzi": true,
+ "infeasible_wrt": "none",
+ "initial_objective": 3461.06654855,
+ "budget_units": 43585997,
+ "units_used": 43586187,
+ "overshoot_units": 190,
+ "wall_s": 107.41915101930499,
+ "gvns_iterations": 40038,
+ "config": {
+  "k_max": 6,
+  "sigma": 0.04,
+  "seg_max": 3,
+  "certify_every_move": true
+ },
+ "improvements": [
+  [
+   15370,
+   0.03544539213180542,
+   3356.44464575,
+   0
+  ],
+  [
+   42691,
+   0.09558681584894657,
+   3355.08758365,
+   4
+  ],
+  [
+   166208,
+   0.3679775334894657,
+   3337.0831261000003,
+   6
+  ],
+  [
+   174311,
+   0.38505716621875763,
+   3329.5049072,
+   4
+  ],
+  [
+   201749,
+   0.4460472660139203,
+   3322.02865235,
+   4
+  ],
+  [
+   210703,
+   0.4649833254516125,
+   3317.6332629999997,
+   6
+  ],
+  [
+   217892,
+   0.4798644734546542,
+   3310.347725175,
+   3
+  ],
+  [
+   247191,
+   0.5433897748589516,
+   3302.976903025,
+   6
+  ]
+ ],
+ "stats": {
+  "scan_segment_exchange": 45394,
+  "move_segment_exchange": 1360,
+  "scan_relocate": 46425,
+  "move_relocate_intra": 2037,
+  "move_relocate_inter": 2274,
+  "scan_two_opt": 45672,
+  "move_two_opt": 2270,
+  "scan_drop_add_replace": 46724,
+  "move_drop": 324,
+  "scan_swap": 45781,
+  "move_swap_inter": 1100,
+  "scan_two_opt_star": 45409,
+  "move_two_opt_star": 1051,
+  "move_add": 1294,
+  "move_swap_intra": 1483,
+  "shake_random": 13325,
+  "shake_related": 13361,
+  "shake_worst": 13352,
+  "improve_k4": 3,
+  "improve_k6": 3,
+  "improve_k3": 1,
+  "move_replace": 2225
+ },
+ "work_by_kind": {
+  "certify": 564678,
+  "segment_exchange": 5071070,
+  "relocate": 16339614,
+  "two_opt": 5505909,
+  "drop_add_replace": 3500249,
+  "swap": 7203099,
+  "two_opt_star": 1878153,
+  "shake_insertion": 3136186,
+  "shake_worst_scores": 387229
+ },
+ "routes": {
+  "0": [
+   1,
+   3,
+   13,
+   12,
+   33,
+   11,
+   10,
+   9,
+   8,
+   7,
+   6,
+   4,
+   1
+  ],
+  "1": [
+   1,
+   31,
+   1
+  ],
+  "2": [
+   1,
+   30,
+   17,
+   29,
+   28,
+   27,
+   16,
+   2,
+   1
+  ],
+  "3": [
+   1,
+   14,
+   19,
+   20,
+   23,
+   21,
+   24,
+   25,
+   26,
+   18,
+   32,
+   1
+  ]
+ },
+ "routes_direction": "pick-up",
+ "instance_sha256": "7a2670d2267a66f18d3a27ee1ff8de4b1a7e65b16102905c98781f9e683e5194",
+ "budget_calibration": {
+  "file": "budget_calibration_v1_v01.json",
+  "sha256": "e010d91a1e6d36e34bebc4eb09151feb46776bde0c4e78ee832c0e672e1ad9a6"
+ },
+ "host": "jt-pc",
+ "python": "3.14.10",
+ "pid": 1220436
+}

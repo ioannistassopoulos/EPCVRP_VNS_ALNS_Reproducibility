@@ -1,0 +1,118 @@
+{
+ "method": "v1",
+ "solver": "RVND_v01",
+ "case": "E-n23-k3_1",
+ "seed": 14,
+ "qlow_mode": "long",
+ "qlow_search": 8049,
+ "objective": 2583.231283776,
+ "score_4sd": "2.583E+03",
+ "emissions": 379.23128377600005,
+ "collected_prize": 796,
+ "fixed_cost": 3000,
+ "served_customers": 19,
+ "total_demand": 10189,
+ "r": 0.6,
+ "qlow_long": 8049,
+ "qlow_trachanatzi": 6113.4,
+ "qlow_trachanatzi_exact": "30567/5",
+ "qlow_max_int": 8049,
+ "served_demand": 9439,
+ "feasible_qlow_long": true,
+ "feasible_qlow_trachanatzi": true,
+ "infeasible_wrt": "none",
+ "initial_objective": 2689.954954056,
+ "budget_units": 44660529,
+ "units_used": 44660571,
+ "overshoot_units": 42,
+ "wall_s": 90.37361613474786,
+ "gvns_iterations": 33460,
+ "config": {
+  "k_max": 6,
+  "sigma": 0.04,
+  "seg_max": 3,
+  "certify_every_move": true
+ },
+ "improvements": [
+  [
+   3596,
+   0.010209460742771626,
+   2583.231283776,
+   0
+  ]
+ ],
+ "stats": {
+  "scan_segment_exchange": 33887,
+  "scan_two_opt": 33906,
+  "move_two_opt": 66,
+  "scan_two_opt_star": 33957,
+  "move_two_opt_star": 168,
+  "scan_swap": 34043,
+  "move_swap_inter": 426,
+  "scan_relocate": 34496,
+  "move_relocate_inter": 1373,
+  "move_relocate_intra": 29,
+  "scan_drop_add_replace": 34238,
+  "move_drop": 15,
+  "shake_worst": 11058,
+  "shake_related": 11185,
+  "shake_random": 11217,
+  "move_add": 630,
+  "move_swap_intra": 54,
+  "shake_failed_qlow": 671,
+  "move_replace": 5
+ },
+ "work_by_kind": {
+  "certify": 69135,
+  "segment_exchange": 14438446,
+  "two_opt": 2271006,
+  "two_opt_star": 2682354,
+  "swap": 5101940,
+  "relocate": 11420454,
+  "drop_add_replace": 4505572,
+  "shake_worst_scores": 210102,
+  "shake_insertion": 3961562
+ },
+ "routes": {
+  "0": [
+   1,
+   8,
+   9,
+   5,
+   6,
+   10,
+   12,
+   13,
+   1
+  ],
+  "1": [
+   1,
+   7,
+   2,
+   3,
+   4,
+   17,
+   16,
+   18,
+   21,
+   20,
+   19,
+   1
+  ],
+  "2": [
+   1,
+   14,
+   11,
+   1
+  ]
+ },
+ "routes_direction": "pick-up",
+ "instance_sha256": "6667574ad70d2eb5caa55381cf6d9f1e9e212cf0219148c6c80c99566b2b7874",
+ "budget_calibration": {
+  "file": "budget_calibration_v1_v01.json",
+  "sha256": "e010d91a1e6d36e34bebc4eb09151feb46776bde0c4e78ee832c0e672e1ad9a6"
+ },
+ "host": "jt-pc",
+ "python": "3.14.10",
+ "pid": 1099786
+}

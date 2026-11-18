@@ -1,0 +1,153 @@
+{
+ "method": "v1",
+ "solver": "RVND_v01",
+ "case": "E-n33-k4_5",
+ "seed": 1,
+ "qlow_mode": "max",
+ "qlow_search": 23496,
+ "objective": 3302.976903025,
+ "score_4sd": "3.303E+03",
+ "emissions": 690.9769030250001,
+ "collected_prize": 1388,
+ "fixed_cost": 4000,
+ "served_customers": 29,
+ "total_demand": 29370,
+ "r": 0.8,
+ "qlow_long": 17622,
+ "qlow_trachanatzi": 23496.0,
+ "qlow_trachanatzi_exact": "23496/1",
+ "qlow_max_int": 23496,
+ "served_demand": 26270,
+ "feasible_qlow_long": true,
+ "feasible_qlow_trachanatzi": true,
+ "infeasible_wrt": "none",
+ "initial_objective": 3423.98452171,
+ "budget_units": 43585997,
+ "units_used": 43586038,
+ "overshoot_units": 41,
+ "wall_s": 75.61601252295077,
+ "gvns_iterations": 40048,
+ "config": {
+  "k_max": 6,
+  "sigma": 0.04,
+  "seg_max": 3,
+  "certify_every_move": true
+ },
+ "improvements": [
+  [
+   11792,
+   0.020563743077218533,
+   3327.6316919749997,
+   0
+  ],
+  [
+   15332,
+   0.026603986974805593,
+   3314.818977725,
+   3
+  ],
+  [
+   17696,
+   0.03052071202546358,
+   3312.922229625,
+   2
+  ],
+  [
+   497290,
+   0.7684962903149426,
+   3302.976903025,
+   6
+  ]
+ ],
+ "stats": {
+  "scan_segment_exchange": 45476,
+  "move_segment_exchange": 1400,
+  "scan_two_opt": 45680,
+  "move_two_opt": 2274,
+  "scan_drop_add_replace": 46709,
+  "scan_swap": 45735,
+  "move_swap_inter": 1162,
+  "scan_two_opt_star": 45316,
+  "move_two_opt_star": 954,
+  "scan_relocate": 46428,
+  "move_relocate_intra": 2108,
+  "move_swap_intra": 1490,
+  "shake_related": 13405,
+  "improve_k3": 1,
+  "shake_random": 13349,
+  "improve_k2": 1,
+  "shake_worst": 13294,
+  "move_add": 1250,
+  "move_relocate_inter": 2204,
+  "improve_k6": 1,
+  "move_replace": 2192,
+  "move_drop": 336
+ },
+ "work_by_kind": {
+  "certify": 562520,
+  "segment_exchange": 5058541,
+  "two_opt": 5508079,
+  "drop_add_replace": 3506274,
+  "swap": 7200215,
+  "two_opt_star": 1871689,
+  "relocate": 16351292,
+  "shake_insertion": 3142029,
+  "shake_worst_scores": 385399
+ },
+ "routes": {
+  "0": [
+   1,
+   3,
+   13,
+   12,
+   33,
+   11,
+   10,
+   9,
+   8,
+   7,
+   6,
+   4,
+   1
+  ],
+  "1": [
+   1,
+   30,
+   17,
+   29,
+   28,
+   27,
+   16,
+   2,
+   1
+  ],
+  "2": [
+   1,
+   14,
+   19,
+   20,
+   23,
+   21,
+   24,
+   25,
+   26,
+   18,
+   32,
+   1
+  ],
+  "3": [
+   1,
+   31,
+   1
+  ]
+ },
+ "routes_direction": "pick-up",
+ "instance_sha256": "7a2670d2267a66f18d3a27ee1ff8de4b1a7e65b16102905c98781f9e683e5194",
+ "budget_calibration": {
+  "file": "budget_calibration_v1_v01.json",
+  "sha256": "e010d91a1e6d36e34bebc4eb09151feb46776bde0c4e78ee832c0e672e1ad9a6"
+ },
+ "host": "jt-pc",
+ "python": "3.14.10",
+ "pid": 1203608
+}

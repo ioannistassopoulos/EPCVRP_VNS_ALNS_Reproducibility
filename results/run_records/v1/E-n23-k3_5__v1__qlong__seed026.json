@@ -1,0 +1,120 @@
+{
+ "method": "v1",
+ "solver": "RVND_v01",
+ "case": "E-n23-k3_5",
+ "seed": 26,
+ "qlow_mode": "long",
+ "qlow_search": 6622,
+ "objective": 2486.804891968,
+ "score_4sd": "2.487E+03",
+ "emissions": 393.80489196800005,
+ "collected_prize": 907,
+ "fixed_cost": 3000,
+ "served_customers": 20,
+ "total_demand": 10189,
+ "r": 0.8,
+ "qlow_long": 6622,
+ "qlow_trachanatzi": 8151.2,
+ "qlow_trachanatzi_exact": "40756/5",
+ "qlow_max_int": 8152,
+ "served_demand": 9939,
+ "feasible_qlow_long": true,
+ "feasible_qlow_trachanatzi": true,
+ "infeasible_wrt": "none",
+ "initial_objective": 3226.9242068000003,
+ "budget_units": 44660529,
+ "units_used": 44660806,
+ "overshoot_units": 277,
+ "wall_s": 116.71672744862735,
+ "gvns_iterations": 31650,
+ "config": {
+  "k_max": 6,
+  "sigma": 0.04,
+  "seg_max": 3,
+  "certify_every_move": true
+ },
+ "improvements": [
+  [
+   7556,
+   0.02567766048014164,
+   2486.804891968,
+   0
+  ]
+ ],
+ "stats": {
+  "scan_segment_exchange": 32533,
+  "move_segment_exchange": 31,
+  "scan_two_opt_star": 32567,
+  "move_two_opt_star": 262,
+  "scan_swap": 32781,
+  "move_swap_inter": 639,
+  "scan_two_opt": 32513,
+  "move_two_opt": 257,
+  "scan_relocate": 33203,
+  "move_relocate_inter": 1648,
+  "scan_drop_add_replace": 32951,
+  "move_drop": 35,
+  "move_swap_intra": 257,
+  "move_relocate_intra": 225,
+  "shake_random": 10482,
+  "shake_worst": 10402,
+  "shake_related": 10766,
+  "shake_failed_qlow": 765,
+  "move_add": 953,
+  "move_replace": 44
+ },
+ "work_by_kind": {
+  "certify": 111862,
+  "segment_exchange": 15263554,
+  "two_opt_star": 2339341,
+  "swap": 5460588,
+  "two_opt": 2504917,
+  "relocate": 12170549,
+  "drop_add_replace": 3336479,
+  "shake_insertion": 3265476,
+  "shake_worst_scores": 208040
+ },
+ "routes": {
+  "0": [
+   1,
+   14,
+   11,
+   1
+  ],
+  "1": [
+   1,
+   8,
+   9,
+   5,
+   6,
+   10,
+   12,
+   13,
+   1
+  ],
+  "2": [
+   1,
+   7,
+   2,
+   3,
+   4,
+   17,
+   16,
+   15,
+   18,
+   21,
+   20,
+   19,
+   1
+  ]
+ },
+ "routes_direction": "pick-up",
+ "instance_sha256": "205233796d19510cfce7fa944fedeaedf12c03153ac1cc598899e0bc23adb610",
+ "budget_calibration": {
+  "file": "budget_calibration_v1_v01.json",
+  "sha256": "e010d91a1e6d36e34bebc4eb09151feb46776bde0c4e78ee832c0e672e1ad9a6"
+ },
+ "host": "jt-pc",
+ "python": "3.14.10",
+ "pid": 1099791
+}

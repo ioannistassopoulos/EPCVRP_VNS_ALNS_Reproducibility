@@ -1,0 +1,57 @@
+
+Gurobi 13.0.3 (linux64) logging started Mon Nov  9 21:49:19 2026
+
+Set parameter LogFile to value "../../3_Results/3_MIP_Bounds/A-n53-k7_5__qzero__proof/gurobi.log"
+Set parameter Threads to value 24
+Set parameter TimeLimit to value 7200
+Set parameter MIPGap to value 0
+Set parameter MIPGapAbs to value 1e-06
+Set parameter NodefileStart to value 40
+Set parameter NodefileDir to value "../../3_Results/3_MIP_Bounds/A-n53-k7_5__qzero__proof"
+Set parameter BestBdStop to value 5527.5
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: Intel(R) Core(TM) i9-14900K, instruction set [SSE2|AVX|AVX2]
+Thread count: 32 physical cores, 32 logical processors, using up to 24 threads
+
+Non-default parameters:
+TimeLimit  7200
+BestBdStop  5527.5
+MIPGap  0
+MIPGapAbs  1e-06
+NodefileStart  40
+Threads  24
+
+Optimize a model with 5619 rows, 5564 columns and 22048 nonzeros (Min)
+Model fingerprint: 0xa7c42d7b
+Model has 5560 linear objective coefficients and an objective constant of 7000
+Variable types: 2756 continuous, 2808 integer (2808 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+02]
+  Objective range  [1e-02, 9e+01]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [7e+00, 7e+00]
+
+Loaded user MIP start with objective 5887.54
+
+Presolve removed 53 rows and 52 columns
+Presolve time: 0.02s
+Presolved: 5566 rows, 5512 columns, 21840 nonzeros
+Variable types: 2704 continuous, 2808 integer (2808 binary)
+
+Root relaxation: objective 5.775910e+03, 3326 iterations, 0.08 seconds (0.26 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 5775.91000    0  131 5887.53812 5775.91000  1.90%     -    0s
+
+Explored 1 nodes (3326 simplex iterations) in 0.10 seconds (0.30 work units)
+Thread count was 24 (of 32 available processors)
+
+Solution count 1: 5887.54 
+
+Optimization achieved user objective limit
+Best objective 5.887538115480e+03, best bound 5.775909997217e+03, gap 1.8960%
+
+User-callback calls 232, time in user-callback 0.00 sec

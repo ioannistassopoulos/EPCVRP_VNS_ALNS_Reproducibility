@@ -1,0 +1,159 @@
+{
+ "method": "v1",
+ "solver": "RVND_v01",
+ "case": "E-n33-k4_5",
+ "seed": 14,
+ "qlow_mode": "long",
+ "qlow_search": 17622,
+ "objective": 3302.976903025,
+ "score_4sd": "3.303E+03",
+ "emissions": 690.9769030250001,
+ "collected_prize": 1388,
+ "fixed_cost": 4000,
+ "served_customers": 29,
+ "total_demand": 29370,
+ "r": 0.8,
+ "qlow_long": 17622,
+ "qlow_trachanatzi": 23496.0,
+ "qlow_trachanatzi_exact": "23496/1",
+ "qlow_max_int": 23496,
+ "served_demand": 26270,
+ "feasible_qlow_long": true,
+ "feasible_qlow_trachanatzi": true,
+ "infeasible_wrt": "none",
+ "initial_objective": 3423.81161593,
+ "budget_units": 43585997,
+ "units_used": 43586114,
+ "overshoot_units": 117,
+ "wall_s": 122.3881825292483,
+ "gvns_iterations": 39844,
+ "config": {
+  "k_max": 6,
+  "sigma": 0.04,
+  "seg_max": 3,
+  "certify_every_move": true
+ },
+ "improvements": [
+  [
+   9932,
+   0.029623537324368954,
+   3345.649990125,
+   0
+  ],
+  [
+   11631,
+   0.03395321685820818,
+   3343.753242025,
+   1
+  ],
+  [
+   20301,
+   0.054696086794137955,
+   3336.805804025,
+   5
+  ],
+  [
+   172376,
+   0.3767386106774211,
+   3312.922229625,
+   5
+  ],
+  [
+   1106264,
+   2.6146619459614158,
+   3302.976903025,
+   6
+  ]
+ ],
+ "stats": {
+  "scan_two_opt": 45271,
+  "scan_segment_exchange": 45052,
+  "move_segment_exchange": 1259,
+  "move_two_opt": 2064,
+  "scan_relocate": 46071,
+  "move_relocate_inter": 2202,
+  "scan_swap": 45269,
+  "move_swap_intra": 1364,
+  "move_swap_inter": 1028,
+  "scan_two_opt_star": 44933,
+  "scan_drop_add_replace": 46283,
+  "move_drop": 38,
+  "move_two_opt_star": 901,
+  "move_add": 1286,
+  "move_relocate_intra": 1961,
+  "shake_related": 13294,
+  "improve_k1": 1,
+  "shake_random": 13229,
+  "shake_worst": 13321,
+  "improve_k5": 2,
+  "move_replace": 2320,
+  "improve_k6": 1
+ },
+ "work_by_kind": {
+  "certify": 526152,
+  "two_opt": 5457417,
+  "segment_exchange": 5102017,
+  "relocate": 16276956,
+  "swap": 7140047,
+  "two_opt_star": 1875262,
+  "drop_add_replace": 3672652,
+  "shake_insertion": 3149550,
+  "shake_worst_scores": 386061
+ },
+ "routes": {
+  "0": [
+   1,
+   3,
+   13,
+   12,
+   33,
+   11,
+   10,
+   9,
+   8,
+   7,
+   6,
+   4,
+   1
+  ],
+  "1": [
+   1,
+   31,
+   1
+  ],
+  "2": [
+   1,
+   14,
+   19,
+   20,
+   23,
+   21,
+   24,
+   25,
+   26,
+   18,
+   32,
+   1
+  ],
+  "3": [
+   1,
+   30,
+   17,
+   29,
+   28,
+   27,
+   16,
+   2,
+   1
+  ]
+ },
+ "routes_direction": "pick-up",
+ "instance_sha256": "7a2670d2267a66f18d3a27ee1ff8de4b1a7e65b16102905c98781f9e683e5194",
+ "budget_calibration": {
+  "file": "budget_calibration_v1_v01.json",
+  "sha256": "e010d91a1e6d36e34bebc4eb09151feb46776bde0c4e78ee832c0e672e1ad9a6"
+ },
+ "host": "jt-pc",
+ "python": "3.14.10",
+ "pid": 1099831
+}

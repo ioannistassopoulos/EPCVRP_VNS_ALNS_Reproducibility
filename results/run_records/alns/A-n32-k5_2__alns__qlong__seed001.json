@@ -1,0 +1,511 @@
+{
+ "method": "alns",
+ "solver": "ALNS_v01",
+ "case": "A-n32-k5_2",
+ "seed": 1,
+ "qlow_mode": "long",
+ "qlow_search": 266,
+ "objective": 4408.25607656,
+ "score_4sd": "4.408E+03",
+ "emissions": 625.25607656,
+ "collected_prize": 1217,
+ "fixed_cost": 5000,
+ "served_customers": 28,
+ "total_demand": 410,
+ "r": 0.65,
+ "qlow_long": 266,
+ "qlow_trachanatzi": 266.5,
+ "qlow_trachanatzi_exact": "533/2",
+ "qlow_max_int": 267,
+ "served_demand": 359,
+ "feasible_qlow_long": true,
+ "feasible_qlow_trachanatzi": true,
+ "infeasible_wrt": "none",
+ "initial_objective": 4537.35728336,
+ "budget_units": 110609918,
+ "units_used": 110609962,
+ "overshoot_units": 44,
+ "wall_s": 60.52797609521076,
+ "gvns_iterations": 171752,
+ "alns_config": {
+  "phi": 9.0,
+  "psi": 2.0,
+  "p_shaw": 6.0,
+  "p_worst": 3.0,
+  "w": 0.05,
+  "c": 0.99975,
+  "ref_iterations": 25000,
+  "sigma1": 33.0,
+  "sigma2": 9.0,
+  "sigma3": 13.0,
+  "r": 0.1,
+  "eta": 0.025,
+  "xi": 0.4,
+  "rho_min": 4,
+  "rho_cap": 100,
+  "segment": 100,
+  "cooling_total_ratio": 0.001928946306697567,
+  "removals": [
+   "shaw",
+   "random",
+   "worst"
+  ],
+  "insertions": [
+   "regret1",
+   "regret2",
+   "regret3",
+   "regret4",
+   "regretm"
+  ],
+  "noise_options": [
+   "noise",
+   "clean"
+  ]
+ },
+ "alns": {
+  "t_start": 56.50728339738614,
+  "t_end_ratio": 0.001928946306697567,
+  "e0": 783.3572833600001,
+  "max_noise": 3.2001,
+  "iterations": 171752,
+  "segments": 1717,
+  "distinct_accepted": 26854,
+  "final_weights": {
+   "shaw": 2.775272912505525e-25,
+   "random": 4.45791053695416e-24,
+   "worst": 1.7698031646151526e-25,
+   "regret1": 4.506320046777567e-24,
+   "regret2": 2.788269660616008e-25,
+   "regret3": 2.604249991539699e-25,
+   "regret4": 2.4332032049636166e-25,
+   "regretm": 2.6379705801271084e-25,
+   "noise": 4.18117314547949e-24,
+   "clean": 2.2297642292507434e-25
+  },
+  "final_probabilities": {
+   "shaw": 0.05649504644711163,
+   "random": 0.9074778257210128,
+   "worst": 0.03602712783187558,
+   "regret1": 0.8115562981940891,
+   "regret2": 0.05021476017342696,
+   "regret3": 0.04690069637236018,
+   "regret4": 0.04382026498953053,
+   "regretm": 0.04750798027059313,
+   "noise": 0.9493712873593779,
+   "clean": 0.050628712640622055
+  },
+  "uses": {
+   "shaw": 36144,
+   "random": 87697,
+   "worst": 47911,
+   "regret1": 90705,
+   "regret2": 21199,
+   "regret3": 18265,
+   "regret4": 18207,
+   "regretm": 23376,
+   "noise": 137225,
+   "clean": 34527
+  },
+  "worse_seen_by_decile": [
+   8333,
+   9122,
+   9984,
+   10792,
+   11815,
+   12355,
+   12755,
+   13713,
+   14409,
+   14062
+  ],
+  "worse_accepted_by_decile": [
+   5214,
+   4714,
+   4223,
+   3774,
+   2977,
+   2381,
+   1746,
+   1273,
+   492,
+   101
+  ],
+  "final_current_objective": 4414.65644688,
+  "drift_final_rel": 0.0014519052906278058,
+  "weight_history": [
+   {
+    "segment": 1,
+    "units": 61874,
+    "weights": {
+     "shaw": 1.856,
+     "random": 2.020513,
+     "worst": 1.794444,
+     "regret1": 1.768421,
+     "regret2": 1.795652,
+     "regret3": 1.989474,
+     "regret4": 2.323529,
+     "regretm": 1.709091,
+     "noise": 1.961224,
+     "clean": 1.837255
+    }
+   },
+   {
+    "segment": 2,
+    "units": 131474,
+    "weights": {
+     "shaw": 2.412824,
+     "random": 2.727033,
+     "worst": 2.611875,
+     "regret1": 2.714306,
+     "regret2": 2.316087,
+     "regret3": 2.634276,
+     "regret4": 3.053676,
+     "regretm": 2.252468,
+     "noise": 2.643825,
+     "clean": 2.538435
+    }
+   },
+   {
+    "segment": 4,
+    "units": 266692,
+    "weights": {
+     "shaw": 3.71653,
+     "random": 3.898472,
+     "worst": 3.629904,
+     "regret1": 3.903344,
+     "regret2": 3.540416,
+     "regret3": 3.80175,
+     "regret4": 4.187334,
+     "regretm": 3.349499,
+     "noise": 3.846432,
+     "clean": 3.675716
+    }
+   },
+   {
+    "segment": 8,
+    "units": 537986,
+    "weights": {
+     "shaw": 5.103009,
+     "random": 4.810217,
+     "worst": 5.315103,
+     "regret1": 5.446726,
+     "regret2": 5.211266,
+     "regret3": 5.136133,
+     "regret4": 5.191444,
+     "regretm": 4.318649,
+     "noise": 5.382431,
+     "clean": 4.760467
+    }
+   },
+   {
+    "segment": 16,
+    "units": 1093006,
+    "weights": {
+     "shaw": 6.581143,
+     "random": 5.710849,
+     "worst": 6.945124,
+     "regret1": 6.755751,
+     "regret2": 6.225073,
+     "regret3": 7.117707,
+     "regret4": 6.30397,
+     "regretm": 5.612307,
+     "noise": 7.035058,
+     "clean": 5.838317
+    }
+   },
+   {
+    "segment": 32,
+    "units": 2180181,
+    "weights": {
+     "shaw": 7.128547,
+     "random": 6.413771,
+     "worst": 7.858589,
+     "regret1": 7.549809,
+     "regret2": 6.913417,
+     "regret3": 7.488148,
+     "regret4": 6.823599,
+     "regretm": 6.916902,
+     "noise": 7.872496,
+     "clean": 6.232422
+    }
+   },
+   {
+    "segment": 64,
+    "units": 4342512,
+    "weights": {
+     "shaw": 6.701519,
+     "random": 6.81772,
+     "worst": 7.52699,
+     "regret1": 7.65767,
+     "regret2": 6.787408,
+     "regret3": 6.940056,
+     "regret4": 6.583243,
+     "regretm": 7.188676,
+     "noise": 7.647344,
+     "clean": 6.240444
+    }
+   },
+   {
+    "segment": 128,
+    "units": 8714273,
+    "weights": {
+     "shaw": 6.149204,
+     "random": 6.089355,
+     "worst": 7.161922,
+     "regret1": 7.171839,
+     "regret2": 6.431379,
+     "regret3": 6.802848,
+     "regret4": 6.303248,
+     "regretm": 6.274486,
+     "noise": 7.305348,
+     "clean": 5.534576
+    }
+   },
+   {
+    "segment": 256,
+    "units": 17352591,
+    "weights": {
+     "shaw": 4.445596,
+     "random": 4.379094,
+     "worst": 5.356862,
+     "regret1": 5.793744,
+     "regret2": 4.144564,
+     "regret3": 4.345734,
+     "regret4": 4.505097,
+     "regretm": 4.472259,
+     "noise": 5.475033,
+     "clean": 3.659248
+    }
+   },
+   {
+    "segment": 512,
+    "units": 34398217,
+    "weights": {
+     "shaw": 1.999979,
+     "random": 2.73614,
+     "worst": 2.540723,
+     "regret1": 3.089115,
+     "regret2": 2.421674,
+     "regret3": 2.256938,
+     "regret4": 1.703318,
+     "regretm": 2.405025,
+     "noise": 3.018367,
+     "clean": 1.126905
+    }
+   },
+   {
+    "segment": 1024,
+    "units": 67528639,
+    "weights": {
+     "shaw": 0.233504,
+     "random": 0.050848,
+     "worst": 0.056139,
+     "regret1": 0.089212,
+     "regret2": 0.000219,
+     "regret3": 0.000291,
+     "regret4": 0.000272,
+     "regretm": 0.010604,
+     "noise": 0.071752,
+     "clean": 0.000308
+    }
+   }
+  ]
+ },
+ "budget_calibration": {
+  "file": "budget_calibration_alns_v01.json",
+  "sha256": "87d7b4e60b17b6f3c9c2ab34db00ac60f7856ad25c6a809c12df768cd70a5ba9"
+ },
+ "improvements": [
+  [
+   1001,
+   0.0048330011777579784,
+   4537.35728336,
+   0
+  ],
+  [
+   1354,
+   0.005260359961539507,
+   4534.2972454,
+   6
+  ],
+  [
+   2492,
+   0.006347253918647766,
+   4516.9179988,
+   11
+  ],
+  [
+   4875,
+   0.008188407868146896,
+   4481.78968052,
+   4
+  ],
+  [
+   14972,
+   0.01565585983917117,
+   4477.21601688,
+   11
+  ],
+  [
+   15863,
+   0.016198609955608845,
+   4435.2618608,
+   8
+  ],
+  [
+   16684,
+   0.016912701074033976,
+   4425.2415922,
+   10
+  ],
+  [
+   22390,
+   0.021581789012998343,
+   4419.34473016,
+   4
+  ],
+  [
+   23229,
+   0.022352408152073622,
+   4416.59943388,
+   12
+  ],
+  [
+   108265,
+   0.08017589198425412,
+   4416.3781108,
+   9
+  ],
+  [
+   108627,
+   0.08040231093764305,
+   4415.29285928,
+   5
+  ],
+  [
+   109093,
+   0.08071945188567042,
+   4414.83765724,
+   6
+  ],
+  [
+   109606,
+   0.08103268500417471,
+   4414.65644688,
+   6
+  ],
+  [
+   2891134,
+   1.4714094148948789,
+   4412.40927788,
+   7
+  ],
+  [
+   6525002,
+   3.2968592308461666,
+   4410.9762676,
+   10
+  ],
+  [
+   6594019,
+   3.331614914815873,
+   4408.51478408,
+   6
+  ],
+  [
+   6596058,
+   3.3326891642063856,
+   4408.25607656,
+   6
+  ]
+ ],
+ "stats": {
+  "removed_customers": 1375498,
+  "best_by_random": 7,
+  "best_by_regret4": 5,
+  "best_by_clean": 10,
+  "best": 16,
+  "accept_best": 16,
+  "worse": 117340,
+  "accept_worse": 26895,
+  "best_by_regret1": 5,
+  "best_by_noise": 6,
+  "better": 29962,
+  "accept_better": 29962,
+  "equal": 24433,
+  "accept_equal": 24433,
+  "best_by_worst": 7,
+  "best_by_regretm": 3,
+  "best_by_shaw": 2,
+  "best_by_regret3": 3,
+  "accepted_seen_before": 30020,
+  "failed_budget": 1
+ },
+ "work_by_kind": {
+  "certify": 683,
+  "alns_setup": 961,
+  "alns_control": 687008,
+  "alns_remove_random": 2428270,
+  "alns_insertion": 81784474,
+  "alns_select": 11756103,
+  "alns_hash": 2047428,
+  "alns_remove_worst": 3288568,
+  "alns_remove_shaw": 8599297,
+  "alns_weights": 17170
+ },
+ "routes": {
+  "0": [
+   1,
+   13,
+   2,
+   17,
+   1
+  ],
+  "1": [
+   1,
+   31,
+   1
+  ],
+  "2": [
+   1,
+   15,
+   19,
+   23,
+   10,
+   9,
+   5,
+   24,
+   3,
+   4,
+   7,
+   1
+  ],
+  "3": [
+   1,
+   21,
+   6,
+   26,
+   11,
+   30,
+   28,
+   25,
+   1
+  ],
+  "4": [
+   1,
+   22,
+   32,
+   20,
+   18,
+   14,
+   8,
+   27,
+   1
+  ]
+ },
+ "routes_direction": "pick-up",
+ "instance_sha256": "c13db73bdc40202be814970391651ef4b7f9a8e32cf4fd2835b4cbaac17c1882",
+ "host": "jt-pc",
+ "python": "3.14.10",
+ "pid": 1150057
+}

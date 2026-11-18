@@ -1,0 +1,129 @@
+{
+ "method": "v3",
+ "solver": "SVNS_v01",
+ "case": "E-n23-k3_2",
+ "seed": 5,
+ "qlow_mode": "long",
+ "qlow_search": 7845,
+ "objective": 2645.804891968,
+ "score_4sd": "2.646E+03",
+ "emissions": 393.80489196800005,
+ "collected_prize": 748,
+ "fixed_cost": 3000,
+ "served_customers": 20,
+ "total_demand": 10189,
+ "r": 0.65,
+ "qlow_long": 7845,
+ "qlow_trachanatzi": 6622.85,
+ "qlow_trachanatzi_exact": "132457/20",
+ "qlow_max_int": 7845,
+ "served_demand": 9939,
+ "feasible_qlow_long": true,
+ "feasible_qlow_trachanatzi": true,
+ "infeasible_wrt": "none",
+ "initial_objective": 3412.906185488,
+ "budget_units": 46412239,
+ "units_used": 46412393,
+ "overshoot_units": 154,
+ "wall_s": 65.02915291441604,
+ "gvns_iterations": 32602,
+ "config": {
+  "k_max": 6,
+  "sigma": 0.04,
+  "seg_max": 3,
+  "certify_every_move": true
+ },
+ "skewed_config": {
+  "alpha": 0.01,
+  "distance": "jaccard_undirected_edges",
+  "reference": "current"
+ },
+ "skewed": {
+  "distance_computations": 31899,
+  "rho_sum_accepted_worse": 0.0,
+  "rho_max_accepted_worse": 0.0,
+  "drift_max_rel": 0.0,
+  "drift_final_rel": 0.0,
+  "final_current_objective": 2645.804891968
+ },
+ "improvements": [
+  [
+   9600,
+   0.016351030208170414,
+   2645.804891968,
+   0
+  ]
+ ],
+ "stats": {
+  "scan_swap": 33176,
+  "move_swap_intra": 195,
+  "scan_drop_add_replace": 33154,
+  "move_drop": 26,
+  "move_swap_inter": 426,
+  "scan_relocate": 33496,
+  "move_relocate_intra": 180,
+  "scan_two_opt": 32997,
+  "move_two_opt": 162,
+  "move_add": 456,
+  "move_relocate_inter": 1193,
+  "scan_segment_exchange": 32934,
+  "move_segment_exchange": 1,
+  "scan_two_opt_star": 33010,
+  "shake_related": 10974,
+  "shake_random": 10827,
+  "shake_worst": 10801,
+  "shake_failed_qlow": 703,
+  "move_two_opt_star": 143
+ },
+ "work_by_kind": {
+  "certify": 72201,
+  "swap": 5490777,
+  "drop_add_replace": 3410170,
+  "relocate": 12201074,
+  "two_opt": 2525701,
+  "segment_exchange": 15313801,
+  "two_opt_star": 2369833,
+  "shake_insertion": 3348192,
+  "skew_distance": 1464624,
+  "shake_worst_scores": 216020
+ },
+ "routes": {
+  "0": [
+   1,
+   14,
+   11,
+   1
+  ],
+  "1": [
+   1,
+   8,
+   9,
+   5,
+   6,
+   10,
+   12,
+   13,
+   1
+  ],
+  "2": [
+   1,
+   7,
+   2,
+   3,
+   4,
+   17,
+   16,
+   15,
+   18,
+   21,
+   20,
+   19,
+   1
+  ]
+ },
+ "routes_direction": "pick-up",
+ "instance_sha256": "14059b75e76bc5428882e9af515c4a015db08154a5f05450487496ffe4e9185e",
+ "host": "jt-pc",
+ "python": "3.14.10",
+ "pid": 942669
+}

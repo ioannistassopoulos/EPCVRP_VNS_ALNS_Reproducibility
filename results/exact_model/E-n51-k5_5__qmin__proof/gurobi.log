@@ -1,0 +1,66 @@
+
+Gurobi 13.0.3 (linux64) logging started Mon Nov  9 22:17:11 2026
+
+Set parameter LogFile to value "../../3_Results/3_MIP_Bounds/E-n51-k5_5__qmin__proof/gurobi.log"
+Set parameter Threads to value 24
+Set parameter TimeLimit to value 86400
+Set parameter MIPGap to value 0
+Set parameter MIPGapAbs to value 1e-06
+Set parameter NodefileStart to value 40
+Set parameter NodefileDir to value "../../3_Results/3_MIP_Bounds/E-n51-k5_5__qmin__proof"
+Set parameter BestBdStop to value 3457.85
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+
+CPU model: Intel(R) Core(TM) i9-14900K, instruction set [SSE2|AVX|AVX2]
+Thread count: 32 physical cores, 32 logical processors, using up to 24 threads
+
+Non-default parameters:
+TimeLimit  86400
+BestBdStop  3457.85
+MIPGap  0
+MIPGapAbs  1e-06
+NodefileStart  40
+Threads  24
+
+Optimize a model with 5203 rows, 5150 columns and 20400 nonzeros (Min)
+Model fingerprint: 0x30811eb4
+Model has 5150 linear objective coefficients and an objective constant of 5000
+Variable types: 2550 continuous, 2600 integer (2600 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [5e-03, 8e+01]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [5e+00, 6e+02]
+
+Loaded user MIP start with objective 3497.38
+
+Presolve removed 50 rows and 50 columns
+Presolve time: 0.02s
+Presolved: 5153 rows, 5100 columns, 20250 nonzeros
+Variable types: 2500 continuous, 2600 integer (2600 binary)
+
+Root relaxation: objective 3.450060e+03, 2389 iterations, 0.06 seconds (0.20 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 3450.06033    0  139 3497.37629 3450.06033  1.35%     -    0s
+     0     0 3460.91170    0  156 3497.37629 3460.91170  1.04%     -    0s
+
+Cutting planes:
+  Gomory: 15
+  MIR: 55
+  Flow cover: 45
+  Flow path: 1
+  Network: 10
+  RLT: 4
+
+Explored 1 nodes (2972 simplex iterations) in 0.44 seconds (0.71 work units)
+Thread count was 24 (of 32 available processors)
+
+Solution count 1: 3497.38 
+
+Optimization achieved user objective limit
+Best objective 3.497376286150e+03, best bound 3.460911696869e+03, gap 1.0426%
+
+User-callback calls 408, time in user-callback 0.00 sec

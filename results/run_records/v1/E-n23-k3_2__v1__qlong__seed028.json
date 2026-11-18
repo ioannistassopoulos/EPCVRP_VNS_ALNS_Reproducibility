@@ -1,0 +1,130 @@
+{
+ "method": "v1",
+ "solver": "RVND_v01",
+ "case": "E-n23-k3_2",
+ "seed": 28,
+ "qlow_mode": "long",
+ "qlow_search": 7845,
+ "objective": 2667.496884656,
+ "score_4sd": "2.667E+03",
+ "emissions": 332.496884656,
+ "collected_prize": 665,
+ "fixed_cost": 3000,
+ "served_customers": 17,
+ "total_demand": 10189,
+ "r": 0.65,
+ "qlow_long": 7845,
+ "qlow_trachanatzi": 6622.85,
+ "qlow_trachanatzi_exact": "132457/20",
+ "qlow_max_int": 7845,
+ "served_demand": 8719,
+ "feasible_qlow_long": true,
+ "feasible_qlow_trachanatzi": true,
+ "infeasible_wrt": "none",
+ "initial_objective": 3495.393304696,
+ "budget_units": 44660529,
+ "units_used": 44660676,
+ "overshoot_units": 147,
+ "wall_s": 78.79182927124202,
+ "gvns_iterations": 54950,
+ "config": {
+  "k_max": 6,
+  "sigma": 0.04,
+  "seg_max": 3,
+  "certify_every_move": true
+ },
+ "improvements": [
+  [
+   5205,
+   0.018076195381581783,
+   2677.183325624,
+   0
+  ],
+  [
+   30203,
+   0.07028534542769194,
+   2676.37144984,
+   3
+  ],
+  [
+   48427,
+   0.10868906881660223,
+   2667.496884656,
+   5
+  ]
+ ],
+ "stats": {
+  "scan_two_opt_star": 56455,
+  "move_two_opt_star": 15,
+  "scan_two_opt": 56473,
+  "move_two_opt": 277,
+  "scan_drop_add_replace": 56777,
+  "move_drop": 216,
+  "scan_relocate": 56513,
+  "move_relocate_inter": 44,
+  "move_replace": 2,
+  "scan_segment_exchange": 56446,
+  "move_relocate_intra": 265,
+  "move_segment_exchange": 45,
+  "scan_swap": 57264,
+  "move_swap_intra": 203,
+  "shake_related": 18253,
+  "shake_worst": 18416,
+  "shake_random": 18281,
+  "improve_k3": 1,
+  "move_swap_inter": 1734,
+  "improve_k5": 1,
+  "move_add": 526
+ },
+ "work_by_kind": {
+  "certify": 76710,
+  "two_opt_star": 1638166,
+  "two_opt": 5193839,
+  "drop_add_replace": 8191512,
+  "relocate": 14233808,
+  "segment_exchange": 2037468,
+  "swap": 6813011,
+  "shake_insertion": 6163065,
+  "shake_worst_scores": 313097
+ },
+ "routes": {
+  "0": [
+   1,
+   13,
+   1
+  ],
+  "1": [
+   1,
+   12,
+   11,
+   1
+  ],
+  "2": [
+   1,
+   15,
+   18,
+   16,
+   17,
+   4,
+   3,
+   2,
+   7,
+   14,
+   10,
+   6,
+   5,
+   9,
+   8,
+   1
+  ]
+ },
+ "routes_direction": "pick-up",
+ "instance_sha256": "14059b75e76bc5428882e9af515c4a015db08154a5f05450487496ffe4e9185e",
+ "budget_calibration": {
+  "file": "budget_calibration_v1_v01.json",
+  "sha256": "e010d91a1e6d36e34bebc4eb09151feb46776bde0c4e78ee832c0e672e1ad9a6"
+ },
+ "host": "jt-pc",
+ "python": "3.14.10",
+ "pid": 1099784
+}

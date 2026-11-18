@@ -1,0 +1,137 @@
+{
+ "method": "v3",
+ "solver": "SVNS_v01",
+ "case": "E-n23-k3_1",
+ "seed": 4,
+ "qlow_mode": "long",
+ "qlow_search": 8049,
+ "objective": 2583.231283776,
+ "score_4sd": "2.583E+03",
+ "emissions": 379.23128377600005,
+ "collected_prize": 796,
+ "fixed_cost": 3000,
+ "served_customers": 19,
+ "total_demand": 10189,
+ "r": 0.6,
+ "qlow_long": 8049,
+ "qlow_trachanatzi": 6113.4,
+ "qlow_trachanatzi_exact": "30567/5",
+ "qlow_max_int": 8049,
+ "served_demand": 9439,
+ "feasible_qlow_long": true,
+ "feasible_qlow_trachanatzi": true,
+ "infeasible_wrt": "none",
+ "initial_objective": 2700.81953484,
+ "budget_units": 46412239,
+ "units_used": 46412420,
+ "overshoot_units": 181,
+ "wall_s": 87.66891140537336,
+ "gvns_iterations": 33812,
+ "config": {
+  "k_max": 6,
+  "sigma": 0.04,
+  "seg_max": 3,
+  "certify_every_move": true
+ },
+ "skewed_config": {
+  "alpha": 0.01,
+  "distance": "jaccard_undirected_edges",
+  "reference": "current"
+ },
+ "skewed": {
+  "distance_computations": 33165,
+  "accept_improving": 1,
+  "rho_sum_accepted_worse": 0.0,
+  "rho_max_accepted_worse": 0.0,
+  "drift_max_rel": 0.0,
+  "drift_final_rel": 0.0,
+  "final_current_objective": 2583.231283776
+ },
+ "improvements": [
+  [
+   2066,
+   0.006962439976632595,
+   2612.57199008,
+   0
+  ],
+  [
+   267245,
+   0.38462452637031674,
+   2583.231283776,
+   6
+  ]
+ ],
+ "stats": {
+  "scan_swap": 34399,
+  "move_swap_inter": 414,
+  "scan_two_opt_star": 34353,
+  "move_two_opt_star": 154,
+  "scan_segment_exchange": 34250,
+  "scan_two_opt": 34251,
+  "move_two_opt": 49,
+  "scan_drop_add_replace": 34631,
+  "scan_relocate": 34881,
+  "move_drop": 12,
+  "shake_worst": 11305,
+  "shake_random": 11331,
+  "shake_related": 11176,
+  "move_add": 659,
+  "move_replace": 7,
+  "move_segment_exchange": 2,
+  "move_relocate_inter": 1342,
+  "improve_k6": 1,
+  "shake_failed_qlow": 646,
+  "move_swap_intra": 46,
+  "move_relocate_intra": 37
+ },
+ "work_by_kind": {
+  "certify": 67941,
+  "swap": 5126662,
+  "two_opt_star": 2700283,
+  "segment_exchange": 14488843,
+  "two_opt": 2283785,
+  "drop_add_replace": 4577430,
+  "relocate": 11493547,
+  "shake_worst_scores": 214367,
+  "shake_insertion": 4002934,
+  "skew_distance": 1456628
+ },
+ "routes": {
+  "0": [
+   1,
+   7,
+   2,
+   3,
+   4,
+   17,
+   16,
+   18,
+   21,
+   20,
+   19,
+   1
+  ],
+  "1": [
+   1,
+   14,
+   11,
+   1
+  ],
+  "2": [
+   1,
+   8,
+   9,
+   5,
+   6,
+   10,
+   12,
+   13,
+   1
+  ]
+ },
+ "routes_direction": "pick-up",
+ "instance_sha256": "6667574ad70d2eb5caa55381cf6d9f1e9e212cf0219148c6c80c99566b2b7874",
+ "host": "jt-pc",
+ "python": "3.14.10",
+ "pid": 942662
+}
